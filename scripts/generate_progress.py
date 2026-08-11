@@ -31,6 +31,36 @@ def load_catalog():
         return json.load(f)
 
 
+LANGUAGE_NAMES = {
+    "py": "Python",
+    "js": "JavaScript",
+    "ts": "TypeScript",
+    "java": "Java",
+    "cpp": "C++",
+    "cs": "C#",
+    "go": "Go",
+    "rs": "Rust",
+    "kt": "Kotlin",
+    "swift": "Swift",
+    "sql": "SQL",
+}
+
+
+def language_counts():
+    counts = defaultdict(int)
+    if not os.path.isdir(SUBMISSIONS_DIR):
+        return counts
+    for entry in os.scandir(SUBMISSIONS_DIR):
+        if not entry.is_dir():
+            continue
+        for fn in os.listdir(entry.path):
+            if not fn.startswith("submission-"):
+                continue
+            ext = fn.rsplit(".", 1)[-1].lower() if "." in fn else ""
+            counts[ext] += 1
+    return counts
+
+
 def solved_slugs():
     solved = set()
     if not os.path.isdir(SUBMISSIONS_DIR):
@@ -81,6 +111,20 @@ def build_section():
         p = (s / t * 100) if t else 0
         lines.append(f"| {pattern} | {s} | {t} | {p:.1f}% |")
     lines.append("")
+
+    lang_counts = language_counts()
+    total_files = sum(lang_counts.values())
+    if total_files:
+        lines.append("### Language used")
+        lines.append("")
+        lines.append("| Language | Files | Percentage |")
+        lines.append("|---|---|---|")
+        for ext, count in sorted(lang_counts.items(), key=lambda kv: -kv[1]):
+            name = LANGUAGE_NAMES.get(ext, ext)
+            pct_lang = count / total_files * 100
+            lines.append(f"| {name} | {count} | {pct_lang:.1f}% |")
+        lines.append("")
+
     lines.append("---")
     lines.append("")
     lines.append("## Solutions by pattern")
