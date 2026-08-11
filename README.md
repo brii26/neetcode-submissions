@@ -8,20 +8,20 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 | Language | Files | Percentage |
 |---|---|---|
-| Rust | 10 | 76.9% |
-| C++ | 3 | 23.1% |
+| Rust | 10 | 71.4% |
+| C++ | 4 | 28.6% |
 
 ## Progress tracker
 
-**10 / 150 solved (6.7%)**
+**11 / 150 solved (7.3%)**
 
-![Progress](https://progress-bar.xyz/10/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
+![Progress](https://progress-bar.xyz/11/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
 
 **Easy**  
 ![Easy](https://progress-bar.xyz/21/?scale=100&suffix=%25%20(6/28)&width=300&progress_color=22c55e)
 
 **Medium**  
-![Medium](https://progress-bar.xyz/4/?scale=100&suffix=%25%20(4/101)&width=300&progress_color=eab308)
+![Medium](https://progress-bar.xyz/5/?scale=100&suffix=%25%20(5/101)&width=300&progress_color=eab308)
 
 **Hard**  
 ![Hard](https://progress-bar.xyz/0/?scale=100&suffix=%25%20(0/21)&width=300&progress_color=ef4444)
@@ -38,7 +38,7 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 | Tries | 1 | 3 | 33.3% |
 | Heap / Priority Queue | 0 | 7 | 0.0% |
 | Backtracking | 0 | 9 | 0.0% |
-| Graphs | 0 | 13 | 0.0% |
+| Graphs | 1 | 13 | 7.7% |
 | Advanced Graphs | 0 | 6 | 0.0% |
 | 1-D DP | 0 | 12 | 0.0% |
 | 2-D DP | 0 | 11 | 0.0% |
@@ -191,9 +191,9 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 </details>
 
 <details>
-<summary><strong>Graphs</strong> (0/13)</summary>
+<summary><strong>Graphs</strong> (1/13)</summary>
 
-- [ ] Number of Islands
+- [x] [Number of Islands](<Data Structures & Algorithms/count-number-of-islands>)
 - [ ] Clone Graph
 - [ ] Max Area of Island
 - [ ] Pacific Atlantic Water Flow
