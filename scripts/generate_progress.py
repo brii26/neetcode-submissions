@@ -33,9 +33,9 @@ def load_catalog():
 
 DIFFICULTY_COLORS = OrderedDict(
     [
-        ("Easy", "green"),
-        ("Medium", "yellow"),
-        ("Hard", "red"),
+        ("Easy", "22c55e"),
+        ("Medium", "eab308"),
+        ("Hard", "ef4444"),
     ]
 )
 
@@ -119,7 +119,7 @@ def build_section():
     lines.append(f"**{total_solved} / {total} solved ({pct:.1f}%)**")
     lines.append("")
     lines.append(
-        f"![Progress](https://progress-bar.xyz/{total_solved}/?scale={total}&suffix=%20/%20{total}&width=300&progress-color=white)"
+        f"![Progress](https://progress-bar.xyz/{total_solved}/?scale={total}&suffix=%20/%20{total}&width=300&progress_color=ffffff)"
     )
     lines.append("")
     for difficulty, color in DIFFICULTY_COLORS.items():
@@ -127,8 +127,10 @@ def build_section():
         d_total = len(items)
         d_solved = sum(1 for item in items if item["slug"] in solved)
         d_pct = round(d_solved / d_total * 100) if d_total else 0
+        suffix = f"%25%20({d_solved}/{d_total})"
         lines.append(
-            f"![{difficulty}](https://progress-bar.xyz/{d_pct}/?scale=100&suffix=%25&width=300&progress-color={color})"
+            f"**{difficulty}**  \n"
+            f"![{difficulty}](https://progress-bar.xyz/{d_pct}/?scale=100&suffix={suffix}&width=300&progress_color={color})"
         )
         lines.append("")
     lines.append("| Pattern | Solved | Total | Percentage |")
