@@ -4,6 +4,13 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 <!-- PROGRESS:START -->
 
+### Language used
+
+| Language | Files | Percentage |
+|---|---|---|
+| Rust | 10 | 76.9% |
+| C++ | 3 | 23.1% |
+
 ## Progress tracker
 
 **10 / 150 solved (6.7%)**
@@ -30,13 +37,6 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 | Intervals | 0 | 6 | 0.0% |
 | Math & Geometry | 0 | 8 | 0.0% |
 | Bit Manipulation | 1 | 7 | 14.3% |
-
-### Language used
-
-| Language | Files | Percentage |
-|---|---|---|
-| Rust | 10 | 76.9% |
-| C++ | 3 | 23.1% |
 
 ---
 

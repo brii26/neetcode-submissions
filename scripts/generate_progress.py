@@ -92,6 +92,20 @@ def build_section():
     lines = []
     lines.append(START_MARKER)
     lines.append("")
+
+    lang_counts = language_counts()
+    total_files = sum(lang_counts.values())
+    if total_files:
+        lines.append("### Language used")
+        lines.append("")
+        lines.append("| Language | Files | Percentage |")
+        lines.append("|---|---|---|")
+        for ext, count in sorted(lang_counts.items(), key=lambda kv: -kv[1]):
+            name = LANGUAGE_NAMES.get(ext, ext)
+            pct_lang = count / total_files * 100
+            lines.append(f"| {name} | {count} | {pct_lang:.1f}% |")
+        lines.append("")
+
     lines.append("## Progress tracker")
     lines.append("")
     lines.append(f"**{total_solved} / {total} solved ({pct:.1f}%)**")
@@ -111,19 +125,6 @@ def build_section():
         p = (s / t * 100) if t else 0
         lines.append(f"| {pattern} | {s} | {t} | {p:.1f}% |")
     lines.append("")
-
-    lang_counts = language_counts()
-    total_files = sum(lang_counts.values())
-    if total_files:
-        lines.append("### Language used")
-        lines.append("")
-        lines.append("| Language | Files | Percentage |")
-        lines.append("|---|---|---|")
-        for ext, count in sorted(lang_counts.items(), key=lambda kv: -kv[1]):
-            name = LANGUAGE_NAMES.get(ext, ext)
-            pct_lang = count / total_files * 100
-            lines.append(f"| {name} | {count} | {pct_lang:.1f}% |")
-        lines.append("")
 
     lines.append("---")
     lines.append("")
