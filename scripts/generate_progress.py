@@ -31,6 +31,14 @@ def load_catalog():
         return json.load(f)
 
 
+DIFFICULTY_COLORS = OrderedDict(
+    [
+        ("Easy", "green"),
+        ("Medium", "yellow"),
+        ("Hard", "red"),
+    ]
+)
+
 LANGUAGE_NAMES = {
     "py": "Python",
     "js": "JavaScript",
@@ -111,9 +119,18 @@ def build_section():
     lines.append(f"**{total_solved} / {total} solved ({pct:.1f}%)**")
     lines.append("")
     lines.append(
-        f"![Progress](https://progress-bar.xyz/{total_solved}/?scale={total}&suffix=%20/%20{total}&width=300)"
+        f"![Progress](https://progress-bar.xyz/{total_solved}/?scale={total}&suffix=%20/%20{total}&width=300&progress-color=white)"
     )
     lines.append("")
+    for difficulty, color in DIFFICULTY_COLORS.items():
+        items = [item for item in catalog if item["difficulty"] == difficulty]
+        d_total = len(items)
+        d_solved = sum(1 for item in items if item["slug"] in solved)
+        d_pct = round(d_solved / d_total * 100) if d_total else 0
+        lines.append(
+            f"![{difficulty}](https://progress-bar.xyz/{d_pct}/?scale=100&suffix=%25&width=300&progress-color={color})"
+        )
+        lines.append("")
     lines.append("| Pattern | Solved | Total | Percentage |")
     lines.append("|---|---|---|---|")
     for pattern in by_pattern:

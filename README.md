@@ -15,7 +15,13 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 **10 / 150 solved (6.7%)**
 
-![Progress](https://progress-bar.xyz/10/?scale=150&suffix=%20/%20150&width=300)
+![Progress](https://progress-bar.xyz/10/?scale=150&suffix=%20/%20150&width=300&progress-color=white)
+
+![Easy](https://progress-bar.xyz/21/?scale=100&suffix=%25&width=300&progress-color=green)
+
+![Medium](https://progress-bar.xyz/4/?scale=100&suffix=%25&width=300&progress-color=yellow)
+
+![Hard](https://progress-bar.xyz/0/?scale=100&suffix=%25&width=300&progress-color=red)
 
 | Pattern | Solved | Total | Percentage |
 |---|---|---|---|
