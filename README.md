@@ -1,4 +1,6 @@
-# NeetCode Solutions - @brii26
+# NeetCode150 Progress Tracker
+
+This is my NeetCode 150 tracker, made for fun to keep myself accountable while grinding through the list. Solutions here are auto-synced from NeetCode.io, and the progress table below is auto-updated by GitHub Actions on every push.
 
 <!-- PROGRESS:START -->
 
