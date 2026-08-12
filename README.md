@@ -8,17 +8,17 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 | Language | Files | Percentage |
 |---|---|---|
-| Rust | 10 | 71.4% |
-| C++ | 4 | 28.6% |
+| Rust | 10 | 66.7% |
+| C++ | 5 | 33.3% |
 
 ## Progress tracker
 
-**11 / 150 solved (7.3%)**
+**12 / 150 solved (8.0%)**
 
-![Progress](https://progress-bar.xyz/11/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
+![Progress](https://progress-bar.xyz/12/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
 
 **Easy**  
-![Easy](https://progress-bar.xyz/21/?scale=100&suffix=%25%20(6/28)&width=300&progress_color=22c55e)
+![Easy](https://progress-bar.xyz/25/?scale=100&suffix=%25%20(7/28)&width=300&progress_color=22c55e)
 
 **Medium**  
 ![Medium](https://progress-bar.xyz/5/?scale=100&suffix=%25%20(5/101)&width=300&progress_color=eab308)
@@ -43,7 +43,7 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 | 1-D DP | 0 | 12 | 0.0% |
 | 2-D DP | 0 | 11 | 0.0% |
 | Greedy | 0 | 8 | 0.0% |
-| Intervals | 0 | 6 | 0.0% |
+| Intervals | 1 | 6 | 16.7% |
 | Math & Geometry | 0 | 8 | 0.0% |
 | Bit Manipulation | 1 | 7 | 14.3% |
 
@@ -271,12 +271,12 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 </details>
 
 <details>
-<summary><strong>Intervals</strong> (0/6)</summary>
+<summary><strong>Intervals</strong> (1/6)</summary>
 
 - [ ] Insert Interval
 - [ ] Merge Intervals
 - [ ] Non-overlapping Intervals
-- [ ] Meeting Rooms
+- [x] [Meeting Rooms](<Data Structures & Algorithms/meeting-schedule>)
 - [ ] Meeting Rooms II
 - [ ] Minimum Interval to Include Each Query
 
