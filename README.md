@@ -8,8 +8,8 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 | Language | Files | Percentage |
 |---|---|---|
-| Rust | 10 | 66.7% |
-| C++ | 5 | 33.3% |
+| Rust | 10 | 62.5% |
+| C++ | 6 | 37.5% |
 
 ## Progress tracker
 
@@ -306,6 +306,13 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 - [ ] Missing Number
 - [ ] Sum of Two Integers
 - [ ] Reverse Integer
+
+</details>
+
+<details>
+<summary><strong>Other / unmapped</strong> (not in the NeetCode 150 catalog)</summary>
+
+- [non-cyclical-number](<Data Structures & Algorithms/non-cyclical-number>)
 
 </details>
 
