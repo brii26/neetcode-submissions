@@ -8,8 +8,8 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 | Language | Files | Percentage |
 |---|---|---|
-| Rust | 10 | 52.6% |
-| C++ | 9 | 47.4% |
+| C++ | 10 | 50.0% |
+| Rust | 10 | 50.0% |
 
 ## Progress tracker
 
@@ -312,6 +312,7 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 <details>
 <summary><strong>Other / unmapped</strong> (not in the NeetCode 150 catalog)</summary>
 
+- [climbing-stairs](<Data Structures & Algorithms/climbing-stairs>)
 - [non-cyclical-number](<Data Structures & Algorithms/non-cyclical-number>)
 
 </details>
