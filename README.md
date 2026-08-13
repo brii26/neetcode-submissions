@@ -8,20 +8,20 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 | Language | Files | Percentage |
 |---|---|---|
-| Rust | 10 | 62.5% |
-| C++ | 6 | 37.5% |
+| Rust | 10 | 58.8% |
+| C++ | 7 | 41.2% |
 
 ## Progress tracker
 
-**12 / 150 solved (8.0%)**
+**13 / 150 solved (8.7%)**
 
-![Progress](https://progress-bar.xyz/12/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
+![Progress](https://progress-bar.xyz/13/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
 
 **Easy**  
 ![Easy](https://progress-bar.xyz/25/?scale=100&suffix=%25%20(7/28)&width=300&progress_color=22c55e)
 
 **Medium**  
-![Medium](https://progress-bar.xyz/5/?scale=100&suffix=%25%20(5/101)&width=300&progress_color=eab308)
+![Medium](https://progress-bar.xyz/6/?scale=100&suffix=%25%20(6/101)&width=300&progress_color=eab308)
 
 **Hard**  
 ![Hard](https://progress-bar.xyz/0/?scale=100&suffix=%25%20(0/21)&width=300&progress_color=ef4444)
@@ -41,7 +41,7 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 | Graphs | 1 | 13 | 7.7% |
 | Advanced Graphs | 0 | 6 | 0.0% |
 | 1-D DP | 0 | 12 | 0.0% |
-| 2-D DP | 0 | 11 | 0.0% |
+| 2-D DP | 1 | 11 | 9.1% |
 | Greedy | 0 | 8 | 0.0% |
 | Intervals | 1 | 6 | 16.7% |
 | Math & Geometry | 0 | 8 | 0.0% |
@@ -240,9 +240,9 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 </details>
 
 <details>
-<summary><strong>2-D DP</strong> (0/11)</summary>
+<summary><strong>2-D DP</strong> (1/11)</summary>
 
-- [ ] Unique Paths
+- [x] [Unique Paths](<Data Structures & Algorithms/count-paths>)
 - [ ] Longest Common Subsequence
 - [ ] Best Time to Buy and Sell Stock with Cooldown
 - [ ] Coin Change II
