@@ -8,17 +8,17 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 | Language | Files | Percentage |
 |---|---|---|
-| Rust | 10 | 55.6% |
-| C++ | 8 | 44.4% |
+| Rust | 10 | 52.6% |
+| C++ | 9 | 47.4% |
 
 ## Progress tracker
 
-**14 / 150 solved (9.3%)**
+**15 / 150 solved (10.0%)**
 
-![Progress](https://progress-bar.xyz/14/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
+![Progress](https://progress-bar.xyz/15/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
 
 **Easy**  
-![Easy](https://progress-bar.xyz/25/?scale=100&suffix=%25%20(7/28)&width=300&progress_color=22c55e)
+![Easy](https://progress-bar.xyz/29/?scale=100&suffix=%25%20(8/28)&width=300&progress_color=22c55e)
 
 **Medium**  
 ![Medium](https://progress-bar.xyz/7/?scale=100&suffix=%25%20(7/101)&width=300&progress_color=eab308)
@@ -30,7 +30,7 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 |---|---|---|---|
 | Arrays & Hashing | 4 | 9 | 44.4% |
 | Two Pointers | 2 | 5 | 40.0% |
-| Sliding Window | 0 | 6 | 0.0% |
+| Sliding Window | 1 | 6 | 16.7% |
 | Stack | 0 | 7 | 0.0% |
 | Binary Search | 0 | 7 | 0.0% |
 | Linked List | 1 | 11 | 9.1% |
@@ -78,9 +78,9 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 </details>
 
 <details>
-<summary><strong>Sliding Window</strong> (0/6)</summary>
+<summary><strong>Sliding Window</strong> (1/6)</summary>
 
-- [ ] Best Time to Buy And Sell Stock
+- [x] [Best Time to Buy And Sell Stock](<Data Structures & Algorithms/buy-and-sell-crypto>)
 - [ ] Longest Substring Without Repeating Characters
 - [ ] Longest Repeating Character Replacement
 - [ ] Permutation in String
