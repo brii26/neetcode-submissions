@@ -8,17 +8,17 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 | Language | Files | Percentage |
 |---|---|---|
-| C++ | 13 | 56.5% |
-| Rust | 10 | 43.5% |
+| C++ | 14 | 58.3% |
+| Rust | 10 | 41.7% |
 
 ## Progress tracker
 
-**18 / 150 solved (12.0%)**
+**19 / 150 solved (12.7%)**
 
-![Progress](https://progress-bar.xyz/18/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
+![Progress](https://progress-bar.xyz/19/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
 
 **Easy**  
-![Easy](https://progress-bar.xyz/39/?scale=100&suffix=%25%20(11/28)&width=300&progress_color=22c55e)
+![Easy](https://progress-bar.xyz/43/?scale=100&suffix=%25%20(12/28)&width=300&progress_color=22c55e)
 
 **Medium**  
 ![Medium](https://progress-bar.xyz/7/?scale=100&suffix=%25%20(7/101)&width=300&progress_color=eab308)
@@ -34,7 +34,7 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 | Stack | 0 | 7 | 0.0% |
 | Binary Search | 0 | 7 | 0.0% |
 | Linked List | 2 | 11 | 18.2% |
-| Trees | 3 | 15 | 20.0% |
+| Trees | 4 | 15 | 26.7% |
 | Tries | 1 | 3 | 33.3% |
 | Heap / Priority Queue | 0 | 7 | 0.0% |
 | Backtracking | 0 | 9 | 0.0% |
@@ -133,14 +133,14 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 </details>
 
 <details>
-<summary><strong>Trees</strong> (3/15)</summary>
+<summary><strong>Trees</strong> (4/15)</summary>
 
 - [x] [Invert Binary Tree](<Data Structures & Algorithms/invert-a-binary-tree>)
 - [x] [Maximum Depth of Binary Tree](<Data Structures & Algorithms/depth-of-binary-tree>)
 - [ ] Diameter of Binary Tree
 - [ ] Balanced Binary Tree
 - [x] [Same Tree](<Data Structures & Algorithms/same-binary-tree>)
-- [ ] Subtree of Another Tree
+- [x] [Subtree of Another Tree](<Data Structures & Algorithms/subtree-of-a-binary-tree>)
 - [ ] Lowest Common Ancestor of a BST
 - [ ] Binary Tree Level Order Traversal
 - [ ] Binary Tree Right Side View
