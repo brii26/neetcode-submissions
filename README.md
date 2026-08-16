@@ -13,12 +13,12 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 ## Progress tracker
 
-**23 / 150 solved (15.3%)**
+**25 / 150 solved (16.7%)**
 
-![Progress](https://progress-bar.xyz/23/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
+![Progress](https://progress-bar.xyz/25/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
 
 **Easy**  
-![Easy](https://progress-bar.xyz/46/?scale=100&suffix=%25%20(13/28)&width=300&progress_color=22c55e)
+![Easy](https://progress-bar.xyz/54/?scale=100&suffix=%25%20(15/28)&width=300&progress_color=22c55e)
 
 **Medium**  
 ![Medium](https://progress-bar.xyz/10/?scale=100&suffix=%25%20(10/101)&width=300&progress_color=eab308)
@@ -40,11 +40,11 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 | Backtracking | 0 | 9 | 0.0% |
 | Graphs | 2 | 13 | 15.4% |
 | Advanced Graphs | 0 | 6 | 0.0% |
-| 1-D DP | 0 | 12 | 0.0% |
+| 1-D DP | 1 | 12 | 8.3% |
 | 2-D DP | 1 | 11 | 9.1% |
 | Greedy | 0 | 8 | 0.0% |
 | Intervals | 1 | 6 | 16.7% |
-| Math & Geometry | 0 | 8 | 0.0% |
+| Math & Geometry | 1 | 8 | 12.5% |
 | Bit Manipulation | 1 | 7 | 14.3% |
 
 ---
@@ -222,9 +222,9 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 </details>
 
 <details>
-<summary><strong>1-D DP</strong> (0/12)</summary>
+<summary><strong>1-D DP</strong> (1/12)</summary>
 
-- [ ] Climbing Stairs
+- [x] [Climbing Stairs](<Data Structures & Algorithms/count-ways-to-climb>)
 - [ ] Min Cost Climbing Stairs
 - [ ] House Robber
 - [ ] House Robber II
@@ -283,12 +283,12 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 </details>
 
 <details>
-<summary><strong>Math & Geometry</strong> (0/8)</summary>
+<summary><strong>Math & Geometry</strong> (1/8)</summary>
 
 - [ ] Rotate Image
 - [ ] Spiral Matrix
 - [ ] Set Matrix Zeroes
-- [ ] Happy Number
+- [x] [Happy Number](<Data Structures & Algorithms/happy-number>)
 - [ ] Plus One
 - [ ] Pow(x, n)
 - [ ] Multiply Strings
@@ -306,14 +306,6 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 - [ ] Missing Number
 - [ ] Sum of Two Integers
 - [ ] Reverse Integer
-
-</details>
-
-<details>
-<summary><strong>Other / unmapped</strong> (not in the NeetCode 150 catalog)</summary>
-
-- [climbing-stairs](<Data Structures & Algorithms/climbing-stairs>)
-- [non-cyclical-number](<Data Structures & Algorithms/non-cyclical-number>)
 
 </details>
 
