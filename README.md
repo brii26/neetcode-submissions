@@ -8,20 +8,20 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 | Language | Files | Percentage |
 |---|---|---|
-| C++ | 16 | 61.5% |
-| Rust | 10 | 38.5% |
+| C++ | 17 | 63.0% |
+| Rust | 10 | 37.0% |
 
 ## Progress tracker
 
-**21 / 150 solved (14.0%)**
+**22 / 150 solved (14.7%)**
 
-![Progress](https://progress-bar.xyz/21/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
+![Progress](https://progress-bar.xyz/22/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
 
 **Easy**  
 ![Easy](https://progress-bar.xyz/46/?scale=100&suffix=%25%20(13/28)&width=300&progress_color=22c55e)
 
 **Medium**  
-![Medium](https://progress-bar.xyz/8/?scale=100&suffix=%25%20(8/101)&width=300&progress_color=eab308)
+![Medium](https://progress-bar.xyz/9/?scale=100&suffix=%25%20(9/101)&width=300&progress_color=eab308)
 
 **Hard**  
 ![Hard](https://progress-bar.xyz/0/?scale=100&suffix=%25%20(0/21)&width=300&progress_color=ef4444)
@@ -33,7 +33,7 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 | Sliding Window | 1 | 6 | 16.7% |
 | Stack | 1 | 7 | 14.3% |
 | Binary Search | 1 | 7 | 14.3% |
-| Linked List | 2 | 11 | 18.2% |
+| Linked List | 3 | 11 | 27.3% |
 | Trees | 4 | 15 | 26.7% |
 | Tries | 1 | 3 | 33.3% |
 | Heap / Priority Queue | 0 | 7 | 0.0% |
@@ -116,12 +116,12 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 </details>
 
 <details>
-<summary><strong>Linked List</strong> (2/11)</summary>
+<summary><strong>Linked List</strong> (3/11)</summary>
 
 - [ ] Reverse Linked List
 - [x] [Merge Two Sorted Lists](<Data Structures & Algorithms/merge-two-sorted-linked-lists>)
 - [ ] Reorder List
-- [ ] Remove Nth Node From End of List
+- [x] [Remove Nth Node From End of List](<Data Structures & Algorithms/remove-node-from-end-of-linked-list>)
 - [ ] Copy List with Random Pointer
 - [ ] Add Two Numbers
 - [x] [Linked List Cycle](<Data Structures & Algorithms/linked-list-cycle-detection>)
