@@ -8,27 +8,27 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 
 | Language | Files | Percentage |
 |---|---|---|
-| C++ | 18 | 64.3% |
-| Rust | 10 | 35.7% |
+| C++ | 18 | 62.1% |
+| Rust | 11 | 37.9% |
 
 ## Progress tracker
 
-**25 / 150 solved (16.7%)**
+**26 / 150 solved (17.3%)**
 
-![Progress](https://progress-bar.xyz/25/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
+![Progress](https://progress-bar.xyz/26/?scale=150&suffix=%20/%20150&width=300&progress_color=ffffff)
 
 **Easy**  
 ![Easy](https://progress-bar.xyz/54/?scale=100&suffix=%25%20(15/28)&width=300&progress_color=22c55e)
 
 **Medium**  
-![Medium](https://progress-bar.xyz/10/?scale=100&suffix=%25%20(10/101)&width=300&progress_color=eab308)
+![Medium](https://progress-bar.xyz/11/?scale=100&suffix=%25%20(11/101)&width=300&progress_color=eab308)
 
 **Hard**  
 ![Hard](https://progress-bar.xyz/0/?scale=100&suffix=%25%20(0/21)&width=300&progress_color=ef4444)
 
 | Pattern | Solved | Total | Percentage |
 |---|---|---|---|
-| Arrays & Hashing | 4 | 9 | 44.4% |
+| Arrays & Hashing | 5 | 9 | 55.6% |
 | Two Pointers | 2 | 5 | 40.0% |
 | Sliding Window | 1 | 6 | 16.7% |
 | Stack | 1 | 7 | 14.3% |
@@ -52,13 +52,13 @@ This is my NeetCode 150 tracker, made for fun to keep myself accountable while g
 ## Solutions by pattern
 
 <details>
-<summary><strong>Arrays & Hashing</strong> (4/9)</summary>
+<summary><strong>Arrays & Hashing</strong> (5/9)</summary>
 
 - [x] [Contains Duplicate](<Data Structures & Algorithms/duplicate-integer>)
 - [x] [Valid Anagram](<Data Structures & Algorithms/is-anagram>)
 - [x] [Two Sum](<Data Structures & Algorithms/two-integer-sum>)
 - [x] [Group Anagrams](<Data Structures & Algorithms/anagram-groups>)
-- [ ] Top K Frequent Elements
+- [x] [Top K Frequent Elements](<Data Structures & Algorithms/top-k-elements-in-list>)
 - [ ] Encode and Decode Strings
 - [ ] Product of Array Except Self
 - [ ] Valid Sudoku
